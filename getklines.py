@@ -158,8 +158,8 @@ from binance.client import Client
 
 symbol = "ETHBTC"
 start = "1 Dec, 2017"
-end = "1 Jan, 2018"
-interval = Client.KLINE_INTERVAL_30MINUTE
+end = "2 Dec, 2017"
+interval = Client.KLINE_INTERVAL_1MINUTE
 
 klines = get_historical_klines(symbol, interval, start, end)
 
